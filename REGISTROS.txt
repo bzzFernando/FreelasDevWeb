@@ -1,0 +1,8 @@
+Registros de processo - Desenvolvimento Web Site Freelas -
+
+
+Dia 01:  25/04/2018;
+
+    Fernando :  - Criação do rodapé;  
+                - Criação do Navbar(Menu);
+                Obs: Preciso das fontes que vocês gostariam de usar no projeto(Sou pessimo nisso) tanto pra NavBar quanto pro Rodapé. Também preciso da opnião de vocês pra alterar ou não a NavBar! 
