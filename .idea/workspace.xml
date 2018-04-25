@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a894a41-62ec-4979-8590-04171b5aaa07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Cabecalho.php" afterPath="$PROJECT_DIR$/Cabecalho.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CSS/CSS-Freelas.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cabecalho.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cabecalho.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cabecalho.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS-Freelas.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,6 +65,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,6 +81,7 @@
         <option value="$PROJECT_DIR$/Home.php" />
         <option value="$PROJECT_DIR$/Rodape.php" />
         <option value="$PROJECT_DIR$/Cabecalho.php" />
+        <option value="$PROJECT_DIR$/CSS/CSS-Freelas.css" />
       </list>
     </option>
   </component>
@@ -409,6 +427,7 @@
     <property name="last_opened_file_path" value="C:/xampp/php/dev/php7ts.lib" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -437,12 +456,12 @@
       <updated>1524678155290</updated>
       <workItem from="1524678165260" duration="770000" />
       <workItem from="1524679832903" duration="3570000" />
-      <workItem from="1524694329126" duration="2815000" />
+      <workItem from="1524694329126" duration="2934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7155000" />
+    <option name="totallyTimeSpent" value="7274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -533,6 +552,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
