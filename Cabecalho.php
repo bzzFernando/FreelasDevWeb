@@ -18,6 +18,15 @@
     <meta name = "application-name"  content= "Freelas Dev WebSite">
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto+Condensed|Saira+Semi+Condensed" rel="stylesheet">
+
+    <!--
+        font-family: Saira Semi Condensed, sans-serif;
+        font-family: IBM Plex Sans Condensed,sans-serif;
+        font-family: Roboto Condense, sans-serif;
+
+        Ex.: p { font-family: Saira Semi Condensed, sans-serif;}
+    -->
 
 </head>
 

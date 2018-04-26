@@ -5,4 +5,13 @@ Dia 01:  25/04/2018;
 
     Fernando :  - Criação do rodapé;  
                 - Criação do Navbar(Menu);
-                Obs: Preciso das fontes que vocês gostariam de usar no projeto(Sou pessimo nisso) tanto pra NavBar quanto pro Rodapé. Também preciso da opnião de vocês pra alterar ou não a NavBar! 
+                Obs: Preciso das fontes que vocês 
+                gostariam de usar no projeto(Sou pessimo nisso)
+                 tanto pra NavBar quanto pro Rodapé.
+                  Também preciso da opnião de vocês pra 
+                  alterar ou não a NavBar! 
+
+Dia 02: 26/04/2018;
+
+    Manoel: Estarei deixando no cabeçalho duas fontes que encontrei,
+    em comentario estará como usa-las.
