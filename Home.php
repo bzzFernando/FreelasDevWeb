@@ -60,7 +60,7 @@ include 'Cabecalho.php';
                             <!--/.Carousel Wrapper-->
                         </div>    
                     <!--Fim da Div que comporta o Carousel-->
-                        <div class="col-md-10 mx-auto my-2 text-center" uk-scrollspy="cls: uk-animation-slide-top-small; delay: 200; repeat: true" >
+                        <div id = "sobre" class="col-md-10 mx-auto my-2 text-center" uk-scrollspy="cls: uk-animation-slide-top-small; delay: 200; repeat: true" >
                             <h2>Equipe de Profissionais Comprometidos com a qualidade nos produtos.</h2>
                             <div class="col-md-10 mx-auto">
                                 <p>"Buscando sempre inovação na area de desenvolvimento, contamos com uma equipe de Profissionais
