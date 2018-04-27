@@ -18,15 +18,32 @@
     <meta name = "application-name"  content= "Freelas Dev WebSite">
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MDB Free/css/mdb.min.css">
+    <link rel="stylesheet" href="UIkit/css/uikit.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto+Condensed|Saira+Semi+Condensed" rel="stylesheet">
 
-    <!--
-        font-family: Saira Semi Condensed, sans-serif;
-        font-family: IBM Plex Sans Condensed,sans-serif;
-        font-family: Roboto Condense, sans-serif;
-
-        Ex.: p { font-family: Saira Semi Condensed, sans-serif;}
-    -->
+    <style>
+        /*Como Usar as Fontes*/
+        /*
+            font-family: 'Saira Semi Condense', sans-serif;
+            font-family: 'IBM Plex Sans Condensed',sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+        */
+            
+        body{
+            font-family: Roboto Condensed , sans-serif;
+        }
+        .uk-navbar-nav li a {color: white; font-family: Roboto Condensed,sans-serif}
+        .logo {font-weight: bold; font-family: Saira Semi Condensed, sans-serif}
+        .botaoBusca {background-color:  #32d296; color: white}
+        ul li a:hover{
+            border-bottom: 0.3pc solid #32d296;
+            transition: 0.2s;
+        }
+            
+        #ferramentas div a {color:#2BBBAD }
+        #ferramentas div img {margin: 4}
+    </style>
 
 </head>
 
@@ -99,14 +116,28 @@
             </div>
         </div>
     </div>
+
+
+    </header>
+    <header class="z-depth-2">
+             <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left w-100 uk-background-secondary">
+                    <ul class="uk-navbar-nav uk-margin-auto">
+                        <li><a class="logo uk-navbar-item uk-logo uk-text-success" href="index.html"><\Freelas WEB></a></li>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                    <div class="uk-margin-auto">
+                        <div class="uk-navbar-item uk-margin-auto" uk-grid>
+                            <form action="javascript:void(0)" class="uk-margin-small-top uk-child-width-auto">
+                                <input type="search" class="uk-input uk-width-auto" placeholder="Pesquisar no Site">
+                                <button class="uk-button botaoBusca">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
     <h1>Manoel Testando o GitDesktop</h1>
-
-    <!-- SCRIPTS BOOTSTRAP !-->
-
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  !-->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-<script src="bootstrap/js/bootstrap.min.js  "> </script>
