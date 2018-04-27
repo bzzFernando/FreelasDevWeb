@@ -1,4 +1,4 @@
-Registros de processo - Desenvolvimento Web Site Freelas -
+﻿Registros de processo - Desenvolvimento Web Site Freelas -
 
 
 Dia 01:  25/04/2018;
@@ -15,3 +15,8 @@ Dia 02: 26/04/2018;
 
     Manoel: Estarei deixando no cabeçalho duas fontes que encontrei,
     em comentario estará como usa-las.
+
+
+Dia 03: 27/04/2018;
+
+	Fernando : Alteração da primeira opção de Navbar(Com Toggle) adicionado efeitos do UK(Framework) e linkar o item li na div SOBRE;
