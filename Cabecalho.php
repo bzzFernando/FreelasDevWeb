@@ -50,16 +50,16 @@
 <body>
 <header>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <ul class="uk-navbar-nav float-left">
-            <li><a class="logo uk-navbar-item uk-logo uk-text-success" href="home.html"><\Freelas WEB></a></li>
+    <nav class="navbar navbar-dark bg-dark mx-5 uk-border-rounded shadow rounded">
+        <ul class="uk-navbar-nav float-left uk-a uk-animation-slide-top">
+            <li><a class="logo uk-navbar-item uk-logo uk-text-success" href="Home.php"><\Freelas WEB></a></li>
         </ul>
         <div class="navbar-header">
             <form class="form-check-inline">
-                <input type="search" class="uk-input uk-width-auto" placeholder="Pesquisar no Site">
+                <input type="search" class="uk-input uk-width-auto" placeholder="Pesquisar no Site" size="15">
                 <button class="uk-button botaoBusca ml-2">Buscar</button>
             </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navFreelas" aria-controls="navFreelas" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navFreelas" aria-controls="navFreelas" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         </div>
@@ -68,7 +68,7 @@
         <div class="collapse navbar-collapse navbar-expand-md" id="navFreelas">
             <div class="container-fluid">
                 <div class="row">
-                        <ul class="uk-navbar-nav float-left ">
+                        <ul class="uk-navbar-nav float-left uk-animation-slide-left">
 
                             <li><a href="">Projetos</a></li>
 
@@ -82,7 +82,8 @@
 
         </div>
     </nav>
-
+</header>
+<header>
     <div class="container-fluid mt-2 text-danger">
         <div class="row">
             <div class="col-md-6">
@@ -108,9 +109,8 @@
             </div>
         </div>
     </div>
+</header>
 
-
-    </header>
     <header class="z-depth-2">
              <nav class="uk-navbar-container" uk-navbar>
                 <div class="uk-navbar-left w-100 uk-background-secondary">

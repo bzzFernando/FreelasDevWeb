@@ -20,3 +20,8 @@ Dia 02: 26/04/2018;
 Dia 03: 27/04/2018;
 
 	Fernando : Alteração da primeira opção de Navbar(Com Toggle) adicionado efeitos do UK(Framework) e linkar o item li na div SOBRE;
+
+
+Dia 04: 28/04/2018;
+
+	Fernando: Adicionado Efeitos no Navbar(primeiro) e efeitos na div das linguagens. 

@@ -74,51 +74,51 @@ include 'Cabecalho.php';
                         </div>
                  </div>
                  <!--Fim da Div ROW-->    
-                 <div class="row my-2 z-depth-2 p-3" id="ferramentas">  
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                 <div class="row my-2 z-depth-2 p-3" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 200; repeat: true" id="ferramentas">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             Java Swing
                                 <img src="img/java.png" width="50" height="50" alt="">
                         </a>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             PHP Servers
                                 <img src="img/php.png" width="50" height="50" alt="">
                         </a>
                         
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             JavaScript
                             <img src="img/javascript.png" width="50" height="50" alt="">
                         </a>
                        
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             HTML e CSS
                             <img src="img/html.png" width="50" height="50" alt="">
                         </a>
                         
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             MySql
                             <img src="img/mysql.png" width="50" height="50" alt="">
                         </a>
                         
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
-                        <a class="uk-button uk-button-text">
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto uk-animation-toggle">
+                        <a class="uk-button uk-button-text uk-animation-slide-left-small">
                             Bootstrap
                             <img src="img/boots.jpg" width="50" height="50" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-10 mx-auto mt-5 p-3 text-center">
+                <div class="col-md-10 mx-auto mt-5 p-3 text-center uk-animation-toggle">
                         Ver Mais<br>
-                        <a id="js-scroll-trigger"href="#proximaDiv" uk-scroll>
+                        <a class="uk-animation-fade" id="js-scroll-trigger" href="#proximaDiv" uk-scroll>
                             <img src="img/descer.png" alt="">
                         </a>
                         <script>
