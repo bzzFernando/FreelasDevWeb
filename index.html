@@ -1,0 +1,664 @@
+<html>
+    <head>
+        <title>Projeto Freelas em UIkit</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="MDB Free/css/mdb.min.css">
+        <link rel="stylesheet" href="UIkit/css/uikit.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto+Condensed|Saira+Semi+Condensed">
+        <link href="CSS/CSSGlobal.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header class="z-depth-2 rounded mx-5">
+
+             <nav class="uk-navbar-container navbar-ligth navbar-expand-md rounded " uk-navbar>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#DivBusca"
+                 aria-controls="DivBusca" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="img/menu.png" alt=""></span>
+                </button>
+
+                <div class="uk-navbar-left mx-auto">
+                    <ul class="uk-navbar-nav mx-auto uk-animation-slide-left ">
+                        <li><a class="logo uk-navbar-item uk-logo uk-text-success" href="#divPrincipal" uk-scroll><\Freelas WEB></a></li>
+                        <li><a  href="#divProjetos" uk-scroll>Projetos</a uk-scroll></li>
+                        <li><a  href="#divSobre" uk-scroll>Sobre</a></li>
+                        <li><a  href="#divContato" uk-scroll>Contato</a></li>
+                    </ul>
+
+                    <div class="collapse navbar-collapse uk-margin-auto uk-animation-slide-right " id="DivBusca">
+
+                        <div class="uk-navbar-item uk-margin-auto" uk-grid>
+                            <form action="javascript:void(0)" class=" uk-child-width-auto">
+                                <input type="search" class="uk-input uk-width-auto" placeholder="Pesquisar no Site">
+                                <button class="btn btn-outline-default waves-effect botaoBuscar">Buscar</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+
+
+
+        <!-- FIM HEADER !-->
+
+
+
+
+        <main class="my-3">
+            <!--Classe Container que irá servir de definidor de Layout-->
+            <div id="divPrincipal" class="container my-2">
+                <div class="row">
+                    <!--Div que irá comportar o carousel alinhado ao centro-->
+                    <div class="col-md-12 text-center">
+                        <!--Carousel Wrapper-->
+                        <div id="carousel01" class="carousel slide carousel-fade z-depth-2" data-ride="carousel">
+                                <!--Indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel01" data-slide-to="0"></li>
+                                    <li data-target="#carousel01" data-slide-to="1" class="active"></li>
+                                    <li data-target="#carousel01" data-slide-to="2"></li>
+                                </ol>
+                                <!--/.Indicators-->
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                        <img class="d-block" src="img/baner.png" alt="First slide">
+                                    </div>
+                                    <!--/First slide-->
+                                    <!--Second slide-->
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/baner2.png" alt="Second slide">
+                                    </div>
+                                    <!--/Second slide-->
+                                    <!--Third slide-->
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/baner3.png" alt="Third slide">
+                                    </div>
+                                    <!--/Third slide-->
+                                </div>
+                                <!--/.Slides-->
+                                <!--Controls-->
+                                <a class="carousel-control-prev" href="#carousel01" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel01" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Proximo</span>
+                                </a>
+                                <!--/.Controls-->
+                            </div>
+                            <!--/.Carousel Wrapper-->
+                        </div>    
+                    <!--Fim da Div que comporta o Carousel-->
+                        <div class="col-md-10 mx-auto my-4 text-center" uk-scrollspy="cls: uk-animation-slide-top-small; delay: 200; repeat: true" >
+
+                            <h2>Equipe de Profissionais Comprometidos com a qualidade nos produtos.</h2>
+
+                            <div class="col-md-10 mx-auto">
+                                <p>"Buscando sempre inovação na area de desenvolvimento, contamos com uma equipe de Profissionais
+                                    altamente capacitados, onde todas as tarefas são divididas por area de especialização. Isso
+                                    proporciona aplicações baseada nos minimos detalhes em cada ferramenta utilizada".
+                                </p>
+                                <p>Referencia hoje no estado do Tocantins utilizamos as melhores ferramentas disponíveis. Conheca Algumas delas, e nossos projetos 
+                                    baseados nas mesmas.
+                                </p>
+                            </div>
+
+                        </div>
+
+                 </div>
+
+
+
+
+                 <!--FIM DA DIV ROW--> 
+
+
+
+
+                 <div class="row my-2 z-depth-2 p-3" id="ferramentas" uk-scrollspy="cls: uk-animation-slide-left-medium; delay:200; repeat: true;"> 
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            Java Swing
+                            <img src="img/java.png" width="50" height="50" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            PHP Servers
+                            <img src="img/php.png" width="50" height="50" alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            JavaScript
+                            <img src="img/javascript.png" width="50" height="50" alt="">
+                        </a>
+                       
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            HTML e CSS
+                            <img src="img/html.png" width="50" height="50" alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            Database
+                            <img src="img/mysql.png" width="60" height="60" alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-2 mx-auto">
+                        <a class="uk-button uk-button-text">
+                            Bootstrap
+                            <img src="img/boots.jpg" width="50" height="50" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-10 mx-auto mt-5 p-3 text-center">
+                        Ver Mais<br>
+                        <a href="#divProjetos" uk-scroll>
+                            <img src="img/descer.png" alt="">
+                        </a>
+                </div>
+
+            </div>
+
+
+
+
+            <!--FIM DO CONTAINER-->    
+            
+
+
+
+            <!--Pagina que irá mostrar algum dos projetos-->
+            <div id="divProjetos" class="container my-5">
+
+                    <h2 id="textoProjetos" class="text-center text-default">Conheça Nossos Projetos</h2>
+
+                <div class="row" uk-scrollspy="cls: uk-animation-slide-top-small; target: .card-body; delay: 200; repeat: true">
+
+                    <div class="col-md-4 my-1">
+        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 my-1">
+                        
+                        <div class="card hoverable">
+
+                            <div class="view overlay">
+                                <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+
+                                <h4>Manjor Hardwares</h4>
+
+                                <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
+                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+
+            <!-- FIM DIV DOS PROJETOS -->
+
+
+
+            <!-- DIV SOBRE A FREELA E INTEGRANTES -->
+            <div id="divSobre" class="container my-5">
+
+                <div class="row mx-auto" uk-scrollspy="cls: uk-animation-fade; target: .card-body; delay: 200; repeat: true">
+                    
+                    <div class="col-md-10 text-center mx-auto">
+
+                        <h2>Sobre a Freelas WEB</h2>
+
+                        <p>Um pouco de texto sobre a equipe</p>
+                    </div>
+
+                    <div class="col-md-3 mx-auto my-1">
+                    
+                        <div class="card">
+
+                            <div class="view overlay z-depth-2">
+                                <img src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+
+                                <h4>Manoel Tavares</h4>
+
+                                <p>Desenvolvedor Front-End e Intusiasta em Banco de Dados PostGre </p>
+                                <img class="imgPessoa" src="img/png/face.png" alt="">
+                                <img class="imgPessoa" src="img/png/inta.png" alt="">
+                                <img class="imgPessoa" src="img/png/linkedin.png" alt="">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 mx-auto my-1">
+                    
+                        <div class="card">
+
+                            <div class="view overlay z-depth-2">
+                                <img src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="">
+                                <a href="#">
+                                <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+
+                                <h4>Fernando Murta</h4>
+    
+                                <p>Desenvolvedor Front-End e Intusiasta em Banco de Dados PostGre </p>
+                                <img class="imgPessoa" src="img/png/face.png" alt="">
+                                <img class="imgPessoa" src="img/png/inta.png" alt="">
+                                <img class="imgPessoa" src="img/png/linkedin.png" alt="">
+                         
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 mx-auto my-1">
+                    
+                        <div class="card">
+
+                            <div class="view overlay z-depth-2">
+                                <img src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="">
+                                <a href="#">
+                                <div class="mask rgba-while-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body text-center">
+
+                                <h4>Kleber Junio</h4>
+        
+                                <p>Desenvolvedor Front-End e Intusiasta em Banco de Dados PostGre </p>
+                                <img class="imgPessoa" src="img/png/face.png" alt="">
+                                <img class="imgPessoa" src="img/png/inta.png" alt="">
+                                <img class="imgPessoa" src="img/png/linkedin.png" alt="">
+                                        
+                            </div>
+
+                        </div>
+
+                    </div> 
+
+                </div>
+
+            </div>
+
+
+    
+            <!--FIM DA DIV SOBRE -->
+
+
+
+            <!-- div formulario contato !-->
+            <div id="divContato" class="container my-2">
+
+                <div class="row">
+
+                    <div class="col-md-6 text-center mx-auto">
+
+                        <h3 class="bg-default text-light p-3 z-depth-2">Fale Conosco</h3>
+                    </div>
+
+                </div>
+
+                <div id="linhaForm" class="row">
+
+                    <div class="form col-md-5 mx-auto z-depth-2 p-3">
+
+                        <div class="form-group">
+                            <label for="">Seu Nome</label>
+                            <input type="text" class="form-control" name="" id="">
+                            <label for="">Seu Email</label>
+                            <input type="text" class="form-control" name="" id="">
+                            <label for="">Numero de Telefone</label>
+                            <input type="text" class="form-control" name="" id="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Menssagem</label>
+                            <textarea type="text" class="form-control" rows="4" name="" id=""></textarea>
+                            <button type="submit" class="btn btn-default btn-block my-3">Enviar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- FIM DIV FORMULARIO !-->
+
+
+
+
+        </main>
+
+
+
+
+        <!-- FIM MAIN !-->
+
+
+
+
+        <footer class="page-footer bg-default pt-4 mt-4">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-2 text-center">
+
+                        <h3>A <\FreelasWEB></h3>
+
+                        <div class="">
+                            <p>Sobre a FreelasWEB..................</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center"></div>
+
+                    <div class="col-md-2 text-center">
+
+                        <h3>Produtos</h3>
+
+                        <nav class="nav flex-column">
+                            <a href="">Manjor Hardware</a>
+                            <a href="">E-Libre</a>
+                            <a href="">PalmasTurismo</a>
+                            <a href="">GranRei</a>
+                            <a href="">OdontoPalmas</a>
+                        </nav>
+
+                    </div>
+
+                    <div class="col-md-2 text-center"></div>
+
+                    <div class="col-md-2">
+
+                        <h3 class="text-center">Contatos</h3>
+
+                        <nav class="nav flex-column ml-5">
+                            <a>freelasweb@gmail.com</a>
+                            <a>+ 55 63 99217 4371</a>
+                            <a href="">Rua *** Alameda 19</a>
+                            <a href="">Lote 11a, Qi 26</a>
+                            <a href="">CEP: *****-***</a>
+                        </nav>
+
+                    </div>
+
+                </div>
+
+                <div id="divRedesSociais" class="row text-center">
+
+                    <nav class="col-md-8 mx-auto">
+                        <img src="img/png/faceround.png" alt=" facebook"> /freelas
+                        <img src="img/png/inta.png" alt=" instagram"> @freelas
+                        <img src="img/png/twround.png" alt=" twitter"> @freelas
+                        <img src="img/png/linkedinround.png" alt=" linkedin"> /freelas
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+
+        <!-- FIM FOOTER !-->
+
+
+
+
+        <script src="UIkit/js/uikit-icons.min.js"></script>
+        <script src="UIkit/js/uikit.min.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

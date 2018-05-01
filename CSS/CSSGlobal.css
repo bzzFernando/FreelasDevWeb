@@ -1,0 +1,64 @@
+body{
+    font-family: Roboto Condensed , sans-serif;
+}
+
+header{
+    border: 0.1pc 
+    solid #32d296;
+}
+
+.uk-navbar-nav li a {
+    color: gray; 
+    font-family: Roboto Condensed,sans-serif
+}
+.logo {
+    font-weight: bold;
+    font-family: Saira Semi Condensed, sans-serif
+}
+
+ul li a:hover{
+    border-bottom: 0.3pc solid #32d296;
+    transition: 0.2s;
+}
+
+.botaoBuscar{
+    margin-top: -3
+}
+
+#ferramentas div a,h2 {
+    color:#2BBBAD 
+}
+
+#ferramentas div img {
+    margin: 4%
+}
+
+#divProjetos h2,h4{
+    color: #32d296
+}
+
+.imgPessoa {
+    width: 36px;
+    height: 36px;
+    margin: 2%
+}
+
+footer h4{
+    color: white;
+}
+
+#divFooterContatos  p { margin: auto  }
+
+#divRedesSociais {
+    background:#32d296
+}
+
+#divRedesSociais img { 
+    width: 46px; 
+    height: 46px; 
+    margin: 1%
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold
+}
