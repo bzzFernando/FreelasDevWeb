@@ -23,9 +23,9 @@
                 </button>
 
                 <div class="uk-navbar-left mx-auto">
-                    <ul class="uk-navbar-nav mx-auto uk-animation-slide-left ">
+                    <ul class="uk-navbar-nav mx-auto" uk-scrollspy="cls: uk-animation-slide-left; delay: 200; repeat: true" >
                         <li><a class="logo uk-navbar-item uk-logo uk-text-success" href="#divPrincipal" uk-scroll><\Freelas WEB></a></li>
-                        <li><a  href="#divProjetos" uk-scroll>Projetos</a uk-scroll></li>
+                        <li><a  href="#divProjetos" uk-scroll>Projetos</a></li>
                         <li><a  href="#divSobre" uk-scroll>Sobre</a></li>
                         <li><a  href="#divContato" uk-scroll>Contato</a></li>
                     </ul>
@@ -37,6 +37,13 @@
                                 <input type="search" class="uk-input uk-width-auto" placeholder="Pesquisar no Site">
                                 <button class="btn btn-outline-default waves-effect botaoBuscar">Buscar</button>
                             </form>
+                        </div>
+
+                        <div class="uk-navbar-left mx-auto">
+                            <ul class="uk-navbar-nav mx-auto">
+                                <li><a class ="numero uk-navbar-item uk-logo uk-text-success"><img class="mr-3" src="img/png/telefoneRound.png" width="35" height="35"> +55 63 99218 - 0874 </a></li>
+                            </ul>
+
                         </div>
 
                     </div>
@@ -214,7 +221,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -237,7 +244,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -260,7 +267,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -283,7 +290,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -306,7 +313,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -329,7 +336,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -352,7 +359,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -375,7 +382,7 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
@@ -398,12 +405,14 @@
                                 </a>
                             </div>
 
-                            <div class="card-body">
+                            <div class="card-body text-center">
 
                                 <h4>Manjor Hardwares</h4>
 
                                 <p>E-Commerce para venda de hardwares, foram utilizados elementos de JQuery e Laravel. </p>
-                                <a href="#"><button class="btn btn-outline-primary">Visite a Pagina</button></a>
+
+                                <a href="#"><button class="btn btn-outline-primary ">Visite a Pagina</button></a>
+
                             </div>
 
                         </div>
@@ -534,25 +543,26 @@
                 </div>
 
                 <div id="linhaForm" class="row">
+                        <div class="form col-md-5 mx-auto z-depth-2 p-3">
+                            <form action = "envioEmail.php" method = "POST">
 
-                    <div class="form col-md-5 mx-auto z-depth-2 p-3">
+                            <div class="form-group">
+                                <label for="">Seu Nome</label>
+                                <input type="text" class="form-control" name="nome" required>
+                                <label for="">Seu Email</label>
+                                <input type="text" class="form-control" name="email" required>
+                                <label for="">Numero de Telefone</label>
+                                <input type="text" class="form-control" name="telefone" required>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="">Seu Nome</label>
-                            <input type="text" class="form-control" name="" id="">
-                            <label for="">Seu Email</label>
-                            <input type="text" class="form-control" name="" id="">
-                            <label for="">Numero de Telefone</label>
-                            <input type="text" class="form-control" name="" id="">
+                            <div class="form-group">
+                                <label for="">Menssagem</label>
+                                <textarea type="text" class="form-control" rows="4" name="mensagem" id="" required></textarea>
+                                <button type="submit" class="btn btn-default btn-block my-3">Enviar</button>
+                            </div>
+
+                            </form>
                         </div>
-
-                        <div class="form-group">
-                            <label for="">Menssagem</label>
-                            <textarea type="text" class="form-control" rows="4" name="" id=""></textarea>
-                            <button type="submit" class="btn btn-default btn-block my-3">Enviar</button>
-                        </div>
-
-                    </div>
 
                 </div>
 
@@ -582,8 +592,6 @@
 
                 <div class="row">
 
-                    <div class="col-md-2"></div>
-
                     <div class="col-md-2 text-center">
 
                         <h3>A <\FreelasWEB></h3>
@@ -594,7 +602,9 @@
 
                     </div>
 
-                    <div class="col-md-2 text-center"></div>
+                    <div class="col-md-2"></div>
+
+
 
                     <div class="col-md-2 text-center">
 
@@ -612,19 +622,25 @@
 
                     <div class="col-md-2 text-center"></div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-2 text-center">
 
-                        <h3 class="text-center">Contatos</h3>
+                        <h3>Contatos</h3>
+                        <section class="SectionContato">
+                            <p >freelasweb@gmail.com <br>
 
-                        <nav class="nav flex-column ml-5">
-                            <a>freelasweb@gmail.com</a>
-                            <a>+ 55 63 99217 4371</a>
-                            <a href="">Rua *** Alameda 19</a>
-                            <a href="">Lote 11a, Qi 26</a>
-                            <a href="">CEP: *****-***</a>
-                        </nav>
+                                    Rua *** Alameda 19 <br>
+                                    Lote 11a, Qi 26 <br>
+                                    CEP: *****-***</p>
+
+                        </section>
 
                     </div>
+
+
+                    <div class="col-md-2 text-center">
+
+                    </div>
+
 
                 </div>
 
@@ -632,7 +648,7 @@
 
                     <nav class="col-md-8 mx-auto">
                         <img src="img/png/faceround.png" alt=" facebook"> /freelas
-                        <img src="img/png/inta.png" alt=" instagram"> @freelas
+                        <img src="img/png/instaround.png" alt=" instagram"> @freelas
                         <img src="img/png/twround.png" alt=" twitter"> @freelas
                         <img src="img/png/linkedinround.png" alt=" linkedin"> /freelas
                     </nav>

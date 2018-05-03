@@ -1,5 +1,6 @@
 body{
     font-family: Roboto Condensed , sans-serif;
+    background-color: whitesmoke;
 }
 
 header{
@@ -16,13 +17,18 @@ header{
     font-family: Saira Semi Condensed, sans-serif
 }
 
+.numero{
+    font-weight: bold;
+    font-family: Saira Semi Condensed, sans-serif;
+}
+
 ul li a:hover{
     border-bottom: 0.3pc solid #32d296;
     transition: 0.2s;
 }
 
 .botaoBuscar{
-    margin-top: -3
+    margin-top: -3px;
 }
 
 #ferramentas div a,h2 {
@@ -31,6 +37,9 @@ ul li a:hover{
 
 #ferramentas div img {
     margin: 4%
+}
+.SectionContato p{
+
 }
 
 #divProjetos h2,h4{
