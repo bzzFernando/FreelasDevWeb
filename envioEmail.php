@@ -15,7 +15,7 @@ $email_remetente = "rafa-612@hotmail.com";
 
 $email_destinatario = "fernandormurta@gmail.com"; //
 $email_reply = "$email";
-$email_assunto = "Contato FreelasDev";
+$email_assunto = "Contato Frellas Web";
 
 
 $email_conteudo = "Nome = $nome \n";

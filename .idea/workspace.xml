@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a894a41-62ec-4979-8590-04171b5aaa07" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/envioEmail.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CSS/CSSGlobal.css" afterPath="$PROJECT_DIR$/CSS/CSSGlobal.css" />
-      <change beforePath="$PROJECT_DIR$/img/png/inta.png" afterPath="$PROJECT_DIR$/img/png/inta.png" />
+      <change beforePath="$PROJECT_DIR$/Cabecalho.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/envioEmail.php" afterPath="$PROJECT_DIR$/envioEmail.php" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="559" column="114" lean-forward="false" selection-start-line="559" selection-start-column="114" selection-end-line="559" selection-end-column="114" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="envioEmail.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="envioEmail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/envioEmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -72,7 +71,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHPXamp" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
@@ -81,275 +80,57 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter">
-      <dailyData date="3-5-2018">
-        <observation name="false" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:middleMatching">
-      <dailyData date="3-5-2018">
-        <observation name="false" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:nonGeneric">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="false" value="1,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="false" value="1,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="false" value="1,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="false" value="2,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="false" value="2,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:templates">
-      <dailyData date="3-5-2018">
-        <observation name="false" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:accessible">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:expectedType">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:kind">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:prox_groovyReferenceListWeigher">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:prox_javaInheritance">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:prox_referenceList">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="categorialFeature:recursion">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
+    <factor id="binaryFeature:liftShorter" />
+    <factor id="binaryFeature:liftShorterClasses" />
+    <factor id="binaryFeature:middleMatching" />
+    <factor id="binaryFeature:nonGeneric" />
+    <factor id="binaryFeature:prox_inResolveScope" />
+    <factor id="binaryFeature:prox_openedInEditor" />
+    <factor id="binaryFeature:prox_sameDirectory" />
+    <factor id="binaryFeature:prox_sameLogicalRoot" />
+    <factor id="binaryFeature:prox_sdkOrLibrary" />
+    <factor id="binaryFeature:templates" />
+    <factor id="categorialFeature:accessible" />
+    <factor id="categorialFeature:expectedType" />
+    <factor id="categorialFeature:kind" />
+    <factor id="categorialFeature:prox_groovyReferenceListWeigher" />
+    <factor id="categorialFeature:prox_javaInheritance" />
+    <factor id="categorialFeature:prox_referenceList" />
+    <factor id="categorialFeature:recursion" />
     <factor id="completionFinishedType">
       <dailyData date="3-5-2018">
-        <observation name="cancelled" value="59,0" />
-        <observation name="explicitSelect" value="5,0" />
-        <observation name="typedSelect" value="1,0" />
+        <observation name="cancelled" value="13,0" />
       </dailyData>
     </factor>
-    <factor id="completionType">
-      <dailyData date="3-5-2018">
-        <observation name="BASIC" value="14,0" />
-      </dailyData>
-    </factor>
+    <factor id="completionType" />
     <factor id="completionUsage">
       <dailyData date="3-5-2018">
-        <observation name="count" value="65,0" />
+        <observation name="count" value="13,0" />
       </dailyData>
     </factor>
-    <factor id="doubleFeature:explicitProximity">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:grouping">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:mostUsed">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:nameEnd">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:position">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prefix">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="-1213,090909" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="-1114,0" />
-        <observation name="min" value="-1583,0" />
-        <observation name="variance" value="16010,974867" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:priority">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="0,090909" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,042688" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="average" value="1,333333" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,222222" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:query_length">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:result_length">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="8,727273" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="14,0" />
-        <observation name="min" value="4,0" />
-        <observation name="variance" value="3,840281" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:sameWords">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:shorter">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:simple">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:sorter">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:statics">
-      <dailyData date="3-5-2018">
-        <observation name="UNDEFINED" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:stats">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="7192,363636" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="10453280,617488" />
-      </dailyData>
-    </factor>
-    <factor id="itemPosition">
-      <dailyData date="3-5-2018">
-        <observation name="0" value="5,0" />
-      </dailyData>
-    </factor>
-    <factor id="mnemonicsUsage">
-      <dailyData date="3-5-2018">
-        <observation name="total" value="5,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="prefixLength">
-      <dailyData date="3-5-2018">
-        <observation name="2" value="4,0" />
-        <observation name="7" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="timeBetweenTyping">
-      <dailyData date="3-5-2018">
-        <observation name="average" value="86,888889" />
-        <observation name="count" value="18,0" />
-      </dailyData>
-    </factor>
+    <factor id="doubleFeature:explicitProximity" />
+    <factor id="doubleFeature:grouping" />
+    <factor id="doubleFeature:mostUsed" />
+    <factor id="doubleFeature:nameEnd" />
+    <factor id="doubleFeature:position" />
+    <factor id="doubleFeature:prefix" />
+    <factor id="doubleFeature:priority" />
+    <factor id="doubleFeature:prox_explicitlyImported" />
+    <factor id="doubleFeature:prox_knownElement" />
+    <factor id="doubleFeature:prox_sameModule" />
+    <factor id="doubleFeature:prox_samePsiMember" />
+    <factor id="doubleFeature:query_length" />
+    <factor id="doubleFeature:result_length" />
+    <factor id="doubleFeature:sameWords" />
+    <factor id="doubleFeature:shorter" />
+    <factor id="doubleFeature:simple" />
+    <factor id="doubleFeature:sorter" />
+    <factor id="doubleFeature:statics" />
+    <factor id="doubleFeature:stats" />
+    <factor id="itemPosition" />
+    <factor id="mnemonicsUsage" />
+    <factor id="prefixLength" />
+    <factor id="timeBetweenTyping" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -367,7 +148,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,32 +212,33 @@
       <workItem from="1525144662116" duration="835000" />
       <workItem from="1525296639634" duration="1012000" />
       <workItem from="1525298484710" duration="3982000" />
-      <workItem from="1525369661500" duration="974000" />
+      <workItem from="1525369661500" duration="1333000" />
+      <workItem from="1525371123612" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22833000" />
+    <option name="totallyTimeSpent" value="23369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30332828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -661,22 +443,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/envioEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="559" column="114" lean-forward="false" selection-start-line="559" selection-start-column="114" selection-end-line="559" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envioEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
