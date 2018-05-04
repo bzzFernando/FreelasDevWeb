@@ -1,0 +1,18 @@
+================ ATENÇÂO =====================
+
+
+Banco de dados criados para controlar e manipular as DIV´s de apresentação de projetos.  Uma forma mais facil e rapida para popularmos aquilo! 
+
+
+Em primeiro momento adicionei um Script com o nome do banco, e a unica tabela existente(projetos) que é a tabela relacionada a nossos projetos futuros.  Se tiverem alguma recomendação de campo adicional ou coisas do genero, avisem! 
+
+
+Lembrem-se por conta que cada um possui uma senha para acesso a seus banco de dados local (para testes), toda VEZ que você atualizar seu repositorio (Baixar atualizações do repositorio), não se esqueçam de alterar a senha do banco de dados na classe criada (Conexão.php), caso contrario seu projeto ira dar falhas. 
+
+Utilizei do proprio Mysql, e a ferramenta Workbench. Aconselho que utilizem a mesma ferramenta (para padronização de linhas de script futuras); Caso tenha alguma sugestão de outro banco de dados comente!  
+
+Qualquer duvida estou a disposição;
+
+
+Fernando R. Murta;
+

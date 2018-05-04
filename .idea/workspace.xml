@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a894a41-62ec-4979-8590-04171b5aaa07" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Cabecalho.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/envioEmail.php" afterPath="$PROJECT_DIR$/envioEmail.php" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +16,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="295">
+              <caret line="218" column="8" lean-forward="true" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSSGlobal.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/CSSGlobal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -30,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/envioEmail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -79,59 +86,6 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter" />
-    <factor id="binaryFeature:liftShorterClasses" />
-    <factor id="binaryFeature:middleMatching" />
-    <factor id="binaryFeature:nonGeneric" />
-    <factor id="binaryFeature:prox_inResolveScope" />
-    <factor id="binaryFeature:prox_openedInEditor" />
-    <factor id="binaryFeature:prox_sameDirectory" />
-    <factor id="binaryFeature:prox_sameLogicalRoot" />
-    <factor id="binaryFeature:prox_sdkOrLibrary" />
-    <factor id="binaryFeature:templates" />
-    <factor id="categorialFeature:accessible" />
-    <factor id="categorialFeature:expectedType" />
-    <factor id="categorialFeature:kind" />
-    <factor id="categorialFeature:prox_groovyReferenceListWeigher" />
-    <factor id="categorialFeature:prox_javaInheritance" />
-    <factor id="categorialFeature:prox_referenceList" />
-    <factor id="categorialFeature:recursion" />
-    <factor id="completionFinishedType">
-      <dailyData date="3-5-2018">
-        <observation name="cancelled" value="13,0" />
-      </dailyData>
-    </factor>
-    <factor id="completionType" />
-    <factor id="completionUsage">
-      <dailyData date="3-5-2018">
-        <observation name="count" value="13,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:explicitProximity" />
-    <factor id="doubleFeature:grouping" />
-    <factor id="doubleFeature:mostUsed" />
-    <factor id="doubleFeature:nameEnd" />
-    <factor id="doubleFeature:position" />
-    <factor id="doubleFeature:prefix" />
-    <factor id="doubleFeature:priority" />
-    <factor id="doubleFeature:prox_explicitlyImported" />
-    <factor id="doubleFeature:prox_knownElement" />
-    <factor id="doubleFeature:prox_sameModule" />
-    <factor id="doubleFeature:prox_samePsiMember" />
-    <factor id="doubleFeature:query_length" />
-    <factor id="doubleFeature:result_length" />
-    <factor id="doubleFeature:sameWords" />
-    <factor id="doubleFeature:shorter" />
-    <factor id="doubleFeature:simple" />
-    <factor id="doubleFeature:sorter" />
-    <factor id="doubleFeature:statics" />
-    <factor id="doubleFeature:stats" />
-    <factor id="itemPosition" />
-    <factor id="mnemonicsUsage" />
-    <factor id="prefixLength" />
-    <factor id="timeBetweenTyping" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -147,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +118,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,17 +168,19 @@
       <workItem from="1525298484710" duration="3982000" />
       <workItem from="1525369661500" duration="1333000" />
       <workItem from="1525371123612" duration="177000" />
+      <workItem from="1525463752642" duration="50000" />
+      <workItem from="1525468875864" duration="228000" />
+      <workItem from="1525469485923" duration="507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23369000" />
+    <option name="totallyTimeSpent" value="24154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30332828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31694403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -272,13 +228,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -294,13 +244,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -311,13 +255,7 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -328,13 +266,7 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="70" column="85" lean-forward="false" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -345,13 +277,7 @@
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
     <entry file="file://$PROJECT_DIR$/Home.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -362,13 +288,7 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -379,13 +299,7 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS-Freelas.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -396,13 +310,7 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Contato.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
@@ -413,13 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
     <entry file="file://$PROJECT_DIR$/Rodape.php" />
@@ -432,32 +334,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cabecalho.php">
+    <entry file="file://$PROJECT_DIR$/Cabecalho.php" />
+    <entry file="file://$PROJECT_DIR$/envioEmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="64" column="14" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/CSSGlobal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envioEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="295">
+          <caret line="218" column="8" lean-forward="true" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
           <folding />
         </state>
       </provider>
