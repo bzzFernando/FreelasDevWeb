@@ -24,4 +24,6 @@ Dia 03: 27/04/2018;
 
 Dia 04: 28/04/2018;
 
+
+Teste Git na faculdade;
 	Fernando: Adicionado Efeitos no Navbar(primeiro) e efeitos na div das linguagens. 
